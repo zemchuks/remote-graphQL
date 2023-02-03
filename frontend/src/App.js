@@ -11,11 +11,11 @@ const App = () => {
     <>
     <ApolloProvider client={client}>
     <Header />
-      <main>
-        <div className=''>
+      <>
+        <div className="w-3/4 md:w-2/3 py-10 mx-auto">
           <Clients />
         </div>
-      </main>
+        </>
         
       </ApolloProvider>
    
